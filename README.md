@@ -94,7 +94,30 @@ Below is a **Use Case Diagram** illustrating interactions between different acto
 
 This diagram shows the main actors (**Customer, Property Owner, and Admin**) and their associated use cases like **searching properties, booking a property, managing listings, processing payments**, etc.
 
+## Acceptance Criteria
 
+### Importance of Acceptance Criteria
+Acceptance Criteria define the conditions that a feature must meet to be considered complete and acceptable by stakeholders. They help in ensuring that the implemented functionality aligns with business requirements and user needs.
+
+### Why Acceptance Criteria Matter?
+- **Defines clear expectations** for developers and testers.
+- **Prevents scope creep** by setting boundaries for the feature.
+- **Ensures testability**, making it easier to validate functionality.
+- **Improves communication** between stakeholders, developers, and QA teams.
+
+### Example: Acceptance Criteria for Checkout Feature
+
+**Feature:** Checkout in the Booking Management System
+
+**Acceptance Criteria:**
+1. The user must be able to review booking details before confirming the checkout.
+2. The system should calculate and display the total price, including taxes and service fees.
+3. Users must be able to select a payment method (Credit Card, PayPal, etc.).
+4. Payment processing must be secure and follow PCI compliance standards.
+5. Upon successful payment, a confirmation email should be sent to the user within **5 seconds**.
+6. If payment fails, the system must display an appropriate error message and allow the user to retry.
+
+By defining clear **Acceptance Criteria**, teams can ensure that features are developed correctly and meet user expectations before deployment.
 
 
 
